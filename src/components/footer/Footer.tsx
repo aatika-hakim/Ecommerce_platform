@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import logo from '../../../public/assets/ELogo.png';
+import logo from '../../../public/assets/Elogo.png';
 import {
     FaMobile,
     FaTwitter,
@@ -105,7 +105,7 @@ const Footer = () => {
                             alt="Logo"
                             height={4}
                             width={4}
-                            className="w-4"
+                            className="w-4 text-white"
                         />
                     </Link>
                     <p>All rights reserved &copy; 2024</p>
